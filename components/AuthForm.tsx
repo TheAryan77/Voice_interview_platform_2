@@ -106,7 +106,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
         </div>
 
         <h3>Practice job interviews with AI created by Aryan</h3>
-        <h4>SignUp first!!</h4>
+        <p>SignUp first,if you are visiting for the first time!!</p>
 
         <Form {...form}>
           <form
