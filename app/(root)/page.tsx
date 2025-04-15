@@ -30,7 +30,7 @@ async function Home() {
             Practice real interview questions & get instant feedback on your chosen choice.
           </p>
 
-          <Button asChild className="btn-primary max-sm:w-full">
+          <Button asChild className="animate-speak btn-primary max-sm:w-full">
             <Link href="/interview">Prepare your Interview</Link>
           </Button>
         </div>
