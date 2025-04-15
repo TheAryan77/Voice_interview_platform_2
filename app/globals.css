@@ -236,7 +236,13 @@
       @apply flex flex-col gap-2 justify-center items-center p-7 dark-gradient rounded-2xl min-h-full;
     }
   }
-
+  .waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
   .transcript-border {
     @apply border-gradient p-0.5 rounded-2xl w-full;
 
